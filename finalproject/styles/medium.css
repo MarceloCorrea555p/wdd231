@@ -1,0 +1,40 @@
+@media (min-width: 641px) and (max-width: 1024px) {
+    
+    
+    #discover-page .gallery-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 20px;
+        width: 100%;
+    }
+
+    
+    #discover-page .gallery-item {
+        background-color: var(--white);
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        padding: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        
+        display: grid;
+        /* Estructura asimétrica media interna */
+        grid-template-columns: 110px 1fr;
+        gap: 12px;
+        grid-template-areas:
+            "card-image card-title"
+            "card-image card-address"
+            "card-image card-price"
+            "card-desc  card-desc"
+            "card-btn   card-btn";
+    }
+
+    #discover-page .gallery-item .img-wrapper {
+        width: 100%;
+        height: 120px;
+    }
+
+    #discover-page .gallery-item .learn-more-btn {
+        width: 100%;
+        padding: 8px;
+    }
+}

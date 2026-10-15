@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precicor</title>
+    
+    
+    <meta name="description" content="Week 06. This individual website project constitutes a comprehensive assessment of each student's competence in achieving the course learning outcomes.">
+    <meta name="author" content="Marcelo Eduardo Correa">
+    
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    
+     <script src="scripts/main.js" type="module"></script>
+    <script src="scripts/weather.js" type="module"></script>
+    
+    
+    
+    <link rel="icon" href="images/favicon4.ico" type="image/x-icon"> 
+    
+    <meta property="og:title" content="Precicor: The precise measure for animal health">
+    <meta property="og:description" content="This individual website project constitutes a comprehensive assessment of each student's competence in achieving the course learning outcomes.">
+    <meta property="og:url" content="https://MarceloCorrea555p.github.io/TU_REPOSITORIO/wdd231/finalproject/index.html">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://MarceloCorrea555p.github.io/wdd231/finalproject/images/precicor.webp">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="precicor.com.ar">
+</head>
+
+<body>
+    <header>
+         <div class="logo-area">
+            <img src="images/precicor.webp" alt="Site Logo" class="site-logo" width="40" height="40">
+            <span class="site-title">PRECICOR: The precise measure for animal health</span>
+            <button class="menu-toggle" id="menuBtn" aria-label="Toggle Navigation Menu">
+                <svg class="icon-hamburger" viewBox="0 0 24 24" width="24" height="24">
+                    <line x1="3" y1="12" x2="21" y2="12" stroke="#050505" stroke-width="2.5" stroke-linecap="round"/>
+                    <line x1="3" y1="6" x2="21" y2="6" stroke="#050505" stroke-width="2.5" stroke-linecap="round"/>
+                    <line x1="3" y1="18" x2="21" y2="18" stroke="#050505" stroke-width="2.5" stroke-linecap="round"/>
+                </svg>
+                
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://w3.org">
+                <line x1="18" y1="6" x2="6" y2="18" stroke="#050505" stroke-width="2.5" stroke-linecap="round"/>
+                </svg>
+            </button>
+        </div>
+        <nav id="primary-nav">
+            <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="Products.html">Products</a></li>
+                 <li><a href="Contact.html" class="active">Contact</a></li>
+                 
+            </ul>
+        </nav>
+    </header>
+
+
+  <main class="join-main">
+        
+        <h1 class="page-title">Contact Us</h1>
+
+        
+        <section class="form-container">
+            
+            <h2>Contact us for the best advice and the best discounts on all our products and services.</h2>
+            <form action="thankyou.html" method="get" id="membershipForm">
+                
+                <label title="Applicant's First Name">First Name *
+                    <input type="text" name="firstName" required autocomplete="given-name" title="Enter your first name">
+                </label>
+
+
+                <label title="Applicant's Last Name">Last Name *
+                    <input type="text" name="lastName" required autocomplete="family-name" title="Enter your last name">
+                </label>
+
+                <label title="Organizational Title">Organizational Title
+                    <input type="text" name="orgTitle" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}" title="Minimum 7 characters. Letters, spaces, and hyphens only." placeholder="e.g., General Manager">
+                </label>
+
+                <label title="Email Address">Email Address *
+                    <input type="email" name="email" required autocomplete="email" placeholder="example@domain.com" title="Enter a valid email address">
+                </label>
+
+                <label title="Mobile Phone Number">Mobile Phone Number *
+                    <input type="tel" name="phone" required autocomplete="tel" title="Enter your mobile phone number">
+                </label>
+
+                <label title="Business or Organization Name">Business/Organization Name *
+                    <input type="text" name="organization" required autocomplete="organization" title="Enter your business or organization name">
+                </label>
+
+                <label title="Membership Level Selection">promotions Level *
+                    <select name="membership" required title="Select your membership level">
+                        <option value="" disabled selected>Select a level...</option>
+                        <option value="Promotion 1">Promotion 1: Upfront Payment (Cash / Bank Transfer)</option>
+                        <option value="Promotion 2">Promotion 2: Credit Card Payment</option>
+                        <option value="Promotion 3">Promotion 3: Mixed Payment (Cash/Transfer + Card)</option>
+                        
+                    </select>
+                </label>
+
+                <label title="Business Description">Your inquiry:
+                    <textarea name="description" rows="4" title="Briefly describe your business or organization" placeholder="Tell us about your organization..."></textarea>
+                </label>
+
+
+                
+                <input type="hidden" id="timestamp" name="timestamp" value="">
+
+                <input type="submit" value="Enter your inquiry" class="submit-btn">
+            </form>
+        </section>
+
+        
+        <section class="membership-cards">
+            <h2>Discounts and promotions</h2>
+            
+            <div class="card animated-card np-card">
+                <h3>Promotion 1: Upfront Payment (Cash / Bank Transfer)</h3>
+                <button type="button" class="open-modal-btn" data-modal="modal-np">Get Additional Info &rarr;</button>
+            </div>
+
+            <div class="card animated-card bronze-card">
+                <h3>Promotion 2: Credit Card Payment</h3>
+                <button type="button" class="open-modal-btn" data-modal="modal-bronze">Get Additional Info &rarr;</button>
+            </div>
+
+            <div class="card animated-card silver-card">
+                <h3>Promotion 3: Mixed Payment (Cash/Transfer + Card)</h3>
+                <button type="button" class="open-modal-btn" data-modal="modal-silver">Get Additional Info &rarr;</button>
+            </div>
+
+             
+        </section>
+
+        
+        <dialog id="modal-np" class="membership-modal">
+            <div class="modal-content">
+                <h3>Promotion Name: Immediate Operating Room Plan</h3>
+                <p class="modal-cost">Excellent</p>
+                <ul>
+                    <li>Discount: 15% direct discount on the total purchase price.</li>
+                    <li>Extra Benefit: Free shipping and installation at veterinary clinics in the province of Córdoba.</li>
+                    <li>Ideal for: Professionals looking to quickly equip their clinic while maximizing their budget.</li>
+                </ul>
+                <button type="button" class="close-modal-btn">Close</button>
+            </div>
+        </dialog>
+
+        <dialog id="modal-bronze" class="membership-modal">
+            <div class="modal-content">
+                <h3>Promotion Name: Corporate Equipment in Installments</h3>
+                <p class="modal-cost">Inmejorable</p>
+                <ul>
+                    <li>Discount: 5% off the list price.</li>
+                    <li>Financing: Option to pay in 3 or 6 interest-free installments using selected bank cards (Visa/Mastercard).</li>
+                    <li> Ideal for: Veterinary clinics or medical centers that prefer to finance their technology investment over the medium term without depleting their capital.</li>
+                </ul>
+                <button type="button" class="close-modal-btn">Close</button>
+            </div>
+        </dialog>
+
+        <dialog id="modal-silver" class="membership-modal">
+            <div class="modal-content">
+                <h3> Promotion Name: Flexible Renewal Plan</h3>
+                <p class="modal-cost">Super convenient</p>
+                <ul>
+                    <li> Discount: 10% discount applied exclusively to the portion of the balance paid via cash or bank transfer.</li>
+                    <li> Condition: The customer can pay 50% upfront (to lock in the price of the instruments) and the remaining 50% by credit card in up to 3 fixed installments.</li>
+                    <li> Ideal for: Veterinarians seeking a balance between a significant discount and the convenience of financing part of the equipment.</li>
+                    
+                </ul>
+                <button type="button" class="close-modal-btn">Close</button>
+            </div>
+        </dialog>
+
+        
+    </main>
+    
+    <footer>
+        <div class="contact-information">
+            <p>Av. Gral. Paz 79, Córdoba, Argentina</p>
+            <p>Phone: +54 3513 62-9827</p>
+            <p>Email: precicor@precicor.com.ar</p>
+        </div>
+        <div class="social-links">
+            <a href="https://linkedin.com" target="_blank" rel="noopener">
+                <img src="images/linkedin.webp" alt="LinkedIn de Precicor" width="32" height="32" loading="lazy">
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener">
+                <img src="images/github.webp" alt="GitHub de Precicor" width="32" height="32" loading="lazy">
+            </a>
+            <a href="https://x.com" target="_blank" rel="noopener">
+                <img src="images/xicono.webp" alt="X de Precicor" width="32" height="32" loading="lazy">
+            </a>
+        </div>
+        <div class="footer-info">
+            
+            <p>&copy; <span id="currentYear"></span> Córdoba, Argentina</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

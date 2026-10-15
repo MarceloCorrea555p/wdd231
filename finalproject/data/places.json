@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Digital Veterinary Electrocardiograph",
+    "address": "Cardiology / Diagnostics",
+    "image": "veterinary-ecg.webp",
+    "description": "High-precision 3-channel ECG monitor specifically calibrated for small and large animals. Features advanced filters for muscle tremor artifact reduction.",
+    "price": 1250
+  },
+  {
+    "id": 2,
+    "name": "Multiparameter Patient Monitor",
+    "address": "Surgery / Intensive Care",
+    "image": "patient-monitor.webp",
+    "description": "Real-time vital signs tracking system including SpO2, NIBP, pulse rate, ECG, and temperature. Designed with sensitive alarm thresholds for anesthesia monitoring.",
+    "price": 2400
+  },
+  {
+    "id": 3,
+    "name": "Veterinary Infusion Pump",
+    "address": "Fluid Therapy / Treatment",
+    "image": "infusion-pump.webp",
+    "description": "Advanced volumetric infusion pump with precise flow rate control for accurate intravenous fluid and medication administration. Compatible with micro and macro veterinary sets.",
+    "price": 850
+  },
+  {
+    "id": 4,
+    "name": "Portable Veterinary Ultrasound Scanner",
+    "address": "Imaging Diagnostics",
+    "image": "portable-ultrasound.webp",
+    "description": "Compact ultrasound machine equipped with interchangeable linear, convex, and micro-convex probes. Ideal for abdominal scanning and pregnancy checking in pets.",
+    "price": 4200
+  },
+  {
+    "id": 5,
+    "name": "Precision Veterinary Electrosurgical Unit",
+    "address": "Surgical Equipment",
+    "image": "electrosurgical-unit.webp",
+    "description": "High-frequency surgical generator with monopolar and bipolar modes. Provides clean cuts and rapid coagulation to minimize bleeding in delicate interventions.",
+    "price": 1950
+  },
+  {
+    "id": 6,
+    "name": "Dental Scaler & Polishing Unit",
+    "address": "Veterinary Odontology",
+    "image": "dental-scaler.webp",
+    "description": "Ultrasonic scaler unit designed for fast and safe plaque removal. Features adjustable power levels and an automatic water spray system to prevent thermal damage.",
+    "price": 680
+  },
+  {
+    "id": 7,
+    "name": "Veterinary Anesthesia Machine",
+    "address": "Surgery / Operating Room",
+    "image": "anesthesia-machine.webp",
+    "description": "Compact isoflurane vaporizing system with precise oxygen flowmeter. Features a specialized rebreathing circuit suitable for pediatric kittens and large breeds.",
+    "price": 3100
+  },
+  {
+    "id": 8,
+    "name": "Digital Refractometer & Otoscope Kit",
+    "address": "General Clinical Examination",
+    "image": "examination-kit.webp",
+    "description": "Premium diagnosis pack including a fiber-optic otoscope with specialized veterinary specula and a digital refractometer for precise urine specific gravity analysis.",
+    "price": 450
+  },
+  {
+    "id": 9,
+    "name": "Veterinary Centrifuge Machine",
+    "address": "Laboratory / Diagnostics",
+    "image": "anesthesia-machine.webp",
+    "description": "High-speed blood and urine plasma separation unit. Features a digital timer, step-less speed regulation, and a safety lid-lock system for busy clinical labs.",
+    "price": 550
+  },
+  {
+    "id": 10,
+    "name": "Automated Hematology Analyzer",
+    "address": "Laboratory / Diagnostics",
+    "image": "examination-kit.webp",
+    "description": "Provides 3-part differentiation of WBC, RBC, and platelets. Delivers highly accurate blood count results for multiple animal profiles in less than two minutes.",
+    "price": 5800
+  },
+  {
+    "id": 11,
+    "name": "Veterinary Operating Table",
+    "address": "Surgical Equipment",
+    "image": "anesthesia-machine.webp",
+    "description": "Heavy-duty stainless steel V-top surgery table with electric lift motor, adjustable tilt angles, and built-in drain channel for fluid management.",
+    "price": 1600
+  },
+  {
+    "id": 12,
+    "name": "Digital Veterinary X-Ray Sensor",
+    "address": "Imaging Diagnostics",
+    "image": "dental-scaler.webp",
+    "description": "High-resolution intraoral and general digital dental radiography sensor. Provides immediate image rendering to minimize pet anesthesia exposure time.",
+    "price": 2900
+  },
+  {
+    "id": 13,
+    "name": "Veterinary ICU Incubator",
+    "address": "Intensive Care / Recovery",
+    "image": "portable-ultrasound.webp",
+    "description": "Thermostatic recovery chamber with integrated humidification and oxygen delivery ports. Provides a safe and warm environment for critical newborns and postoperative pets.",
+    "price": 2100
+  },
+  {
+    "id": 14,
+    "name": "Blood Pressure Monitor VET",
+    "address": "Cardiology / Diagnostics",
+    "image": "veterinary-ecg.webp",
+    "description": "Non-invasive oscillometric blood pressure system specifically optimized for steady and reliable measurements on small, awake companion animals.",
+    "price": 720
+  },
+  {
+    "id": 15,
+    "name": "Veterinary Laryngoscope Set",
+    "address": "Surgery / Airway Management",
+    "image": "patient-monitor.webp",
+    "description": "Fiber-optic illumination intubation set with multiple curved and straight blades designed to navigate diverse exotic and domestic throat structures.",
+    "price": 320
+  }
+]

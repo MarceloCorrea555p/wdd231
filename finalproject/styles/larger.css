@@ -1,0 +1,280 @@
+
+
+
+@media (min-width: 1025px) {
+    
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px 25px; 
+    }
+
+    .logo-area {
+        width: auto; 
+        gap: 15px; 
+    }
+
+    .site-logo {
+        width: 65px;  
+        height: 65px; 
+    }
+
+    .site-title {
+        font-size: 1.7rem; 
+        letter-spacing: -0.5px; 
+    }
+
+    .menu-toggle {
+        display: none !important; 
+    }
+    
+    #primary-nav {
+        display: block !important; 
+        background: none !important;         
+        margin-top: 0;
+        width: auto;
+    }
+
+    #primary-nav ul {
+        display: flex !important;
+        flex-direction: row !important;      
+        gap: 15px;
+    }
+
+    #primary-nav ul li {
+        width: auto;
+    }
+
+    #primary-nav ul li a {
+        color: var(--primary-color); 
+        border-bottom: none;
+        padding: 8px 16px;
+        font-weight: 500;
+        border-radius: 4px;
+        text-align: left;
+    }
+    
+    #primary-nav ul li a.active, 
+    #primary-nav ul li a:hover {
+        background-color: var(--primary-color);
+        color: var(--white);
+    }
+
+   
+    .directory-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 20px auto 30px auto;
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 15px;
+    }
+
+    .directory-header h1 {
+        margin: 0;
+        font-size: 2.2rem;
+    }
+
+    /* --- VISTAS DE MIEMBROS (GRID / LIST) --- */
+    #membersContainer.grid-layout {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 25px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    #membersContainer.grid-layout .member-card {
+        flex-direction: column;
+    }
+
+    #membersContainer.grid-layout .member-card img {
+        height: 180px;
+    }
+
+    #membersContainer.list-layout {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    #membersContainer.list-layout .member-card {
+        flex-direction: row;
+        align-items: center;
+        padding-right: 20px;
+    }
+
+    #membersContainer.list-layout .member-card img {
+        width: 140px;
+        height: 140px;
+    }
+
+    #membersContainer.list-layout .member-details {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 20px;
+    }
+
+    #membersContainer.list-layout .member-details h2,
+    #membersContainer.list-layout .member-details .category,
+    #membersContainer.list-layout .member-details p {
+        margin: 0;
+    }
+
+    #membersContainer.list-layout .member-details h2 {
+        min-width: 220px;
+    }
+
+    #membersContainer.list-layout .member-details .category {
+        min-width: 160px;
+    }
+    
+    #membersContainer.list-layout .membership-badge {
+        margin-top: 0;
+    }
+
+    /* --- PIE DE PÁGINA (FOOTER) --- */
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 50px auto 0 auto;
+        padding: 20px;
+    }
+    
+    .contact-information {
+        text-align: left;
+    }
+    
+    .contact-information p,
+    .footer-info p {
+        margin: 4px 0;
+    }
+    
+    .social-links {
+        margin: 0;
+    }
+    
+    .footer-info {
+        text-align: right;
+    }
+
+    /* --- HOME SECCIÓN HÉROE --- */
+    .hero-container {
+        max-width: 1200px;
+        margin: 30px auto;
+        overflow: visible; 
+    }
+
+    .hero-image {
+        height: 520px; 
+        border-radius: 8px;
+    }
+
+    .hero-text {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: var(--bg-overlay-dark); 
+        padding: 25px;
+        width: 35%;
+        max-width: 400px;
+    }
+
+    .hero-text h1 {
+        font-size: 2.2rem;
+        margin-bottom: 8px;
+    }
+
+    .hero-text p {
+        font-size: 1.05rem;
+    }
+
+    .home-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row-reverse; 
+        justify-content: space-between; 
+        align-items: center;          
+        padding: 0 30px; 
+        pointer-events: none;         
+        z-index: 3;
+    }
+
+    .information-card, 
+    .weather-card {
+        pointer-events: auto;         
+        background-color: var(--bg-card-translucent);
+        width: 310px;                 
+        margin: 0; 
+    }
+
+    .information-card {
+        text-align: left;
+    }
+
+    .information-card h2, 
+    .weather-card h2 {
+        font-size: 1.35rem;
+        letter-spacing: 0.5px;
+    }
+
+    /* --- FORMULARIOS Y REGISTRO --- */
+    .join-main {
+        display: grid;
+        grid-template-columns: 1.3fr 1fr;
+        gap: 40px;
+        align-items: start;
+        max-width: 1200px;
+        margin: 30px auto;
+    }
+
+    .membership-cards {
+        gap: 20px;
+    }
+
+    
+    .discover-main {
+        display: block; 
+        max-width: 1200px;
+        margin: 30px auto;
+        padding: 0 25px;
+    }
+
+    .gallery-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 30px;
+    }
+
+    .discover-card {
+        transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.3s ease;
+    }
+
+    .discover-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 24px var(--shadow-premium);
+    }
+
+    .discover-card img {
+        transition: transform 0.3s ease;
+    }
+
+    .discover-card:hover img {
+        transform: scale(1.03);
+    }
+}
